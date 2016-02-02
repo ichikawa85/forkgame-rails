@@ -1,0 +1,11 @@
+/home/ichikawa/.rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160202-19714-19ysf5.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20160202-19714-4v1bmb
